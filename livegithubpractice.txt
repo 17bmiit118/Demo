@@ -27,4 +27,4 @@ git push -u origin master
 Enter Username:
 Enter Password:
 
-git remote set-url origin git@github.com:17bmiit118/Demo.git
+git remote set-url origin git@github.com:17bmiit118/Demo.git (Change Repository Refrence)
