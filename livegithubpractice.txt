@@ -13,7 +13,11 @@ gedit .gitconfig
 
 git clone 'HTTPS OR SSH Link' (Github to your local folder)
 
+git init
 git status
 git add .
 git commit -m ""
+git remote add origin https://github.com/17bmiit118/Demo.git
 git push -u origin master
+Enter Username:
+Enter Password:
