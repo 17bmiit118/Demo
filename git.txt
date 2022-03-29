@@ -1,0 +1,61 @@
+git init .
+git status
+git add . (Add changes in staging area)
+git commit -m "" | git commit -am ""
+git log | git show
+
+git reset HEAD filename (Staging area to UnStaging area)
+git checkout -- filename (Then remove changes in file)
+
+git help log
+
+git hist (History)
+git hist -- filename
+
+git mv filename.txt newfilename.txt (Change file name and again commit)
+git rm filename.txt (Delete file name and again commit)
+
+git add -u 
+git add -A (Outside Changes)
+
+.gitignore
+
+git diff logkey HEAD (To see difference between head and current directory)
+git difftool 
+
+git help
+git help commandname
+
+git branch (List of branch)
+git branch -d branchname (To delete branch)
+
+git checkout -b newbranchname (To Create new branch)
+git checkout branchname (To switch branch)
+
+git merge branchname (To merge branch in master)
+
+// HEAD represent current branch
+
+git diff masterbranch currentbranch (To see difference between two branch)
+
+git mergetool (To see conflict)
+
+
+git tag newtagname (Tagname you can see in branch)(Tagname is special mark)
+git tag --list
+git tag -d tagname
+git tag -a v1.0 -m "Release 1.0"
+git show v1.0
+
+
+git stash (Save work in progress)
+git stash list
+git stash pop 
+
+
+git reset logid --soft (Your HEAD in current logid)
+git reset logid --mixed (Your HEAD in logid)
+git reset logid --hard (Your HEAD in logid but no any changes in staging area)
+
+git reflog (To see command history you have entered)
+git log --oneline

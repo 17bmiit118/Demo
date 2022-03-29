@@ -1,0 +1,19 @@
+git --version
+
+Sign Up GitHub & Create Repository
+
+git config list (To see git config)
+git config --global user.name ""
+git config --global user.email ""
+
+pwd
+ls -al
+gedit .gitconfig
+
+
+git clone 'HTTPS OR SSH Link' (Github to your local folder)
+
+git status
+git add .
+git commit -m ""
+git push -u origin master
