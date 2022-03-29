@@ -10,8 +10,13 @@ pwd
 ls -al
 gedit .gitconfig
 
-
 git clone 'HTTPS OR SSH Link' (Github to your local folder)
+
+ssh-keygen -t rsa -b 4096 -C "17bmiit119@gmail.com"
+eval "$(ssh-agent -s)"
+ssh-add ~/.ssh/id_rsa
+Enter passphrase
+cat ~/.ssh/id_rsa.pub
 
 git init
 git status
@@ -21,3 +26,5 @@ git remote add origin https://github.com/17bmiit118/Demo.git
 git push -u origin master
 Enter Username:
 Enter Password:
+
+git remote set-url origin https://github.com/17bmiit118/Demo.git
