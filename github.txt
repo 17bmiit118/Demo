@@ -4,5 +4,6 @@ git remote -v
 git push -u origin master --tags (After this command enter username & password)
 
 Setup SHH
-    
+git remote add origin 'Your Link'
+
 git clone 'SSH URL' (To setup Github Repository to Local)

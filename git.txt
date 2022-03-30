@@ -40,18 +40,16 @@ git diff masterbranch currentbranch (To see difference between two branch)
 
 git mergetool (To see conflict)
 
-
-git tag newtagname (Tagname you can see in branch)(Tagname is special mark)
+git tag newtagname branchname(Tagname you can see in branch)(Tagname is special mark)
 git tag --list
 git tag -d tagname
 git tag -a v1.0 -m "Release 1.0"
+git tag -a v1.0 -m "Release 1.0" logid (Specific log tag)
 git show v1.0
-
 
 git stash (Save work in progress)
 git stash list
 git stash pop 
-
 
 git reset logid --soft (Your HEAD in current logid)
 git reset logid --mixed (Your HEAD in logid)
@@ -59,3 +57,15 @@ git reset logid --hard (Your HEAD in logid but no any changes in staging area)
 
 git reflog (To see command history you have entered)
 git log --oneline
+
+git fetch (Take GitHub branch to local branch)
+git checkout newbranchname
+
+git push origin :branchname (To delete remote branchname)
+
+
+git pull
+git merge 
+
+
+git pull --rebase
