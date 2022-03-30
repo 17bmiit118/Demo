@@ -45,6 +45,8 @@ git tag --list
 git tag -d tagname
 git tag -a v1.0 -m "Release 1.0"
 git tag -a v1.0 -m "Release 1.0" logid (Specific log tag)
+git push origin tagname (Change Local tag to remote tag)
+git push --tags (Push all tag to remote)
 git show v1.0
 
 git stash (Save work in progress)
@@ -66,6 +68,5 @@ git push origin :branchname (To delete remote branchname)
 
 git pull
 git merge 
-
 
 git pull --rebase
