@@ -29,8 +29,7 @@ Enter Password:
 
 git remote set-url origin git@github.com:17bmiit118/Demo.git (Change Repository Refrence)
 
-
-git remote add upstream secondrepositorylink
-git pull upstream master
+git remote add origin secondrepositorylink
+git pull origin master
 
 https://drive.google.com/drive/folders/17Cf4Sw3ffxBoMA-ChtlWC4Zihp8JDLpM

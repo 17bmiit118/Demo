@@ -1,7 +1,7 @@
 git init .
 git status
 git add . (Add changes in staging area)
-git commit -m "" | git commit -am ""
+git commit -m "" | git commit -am "" | git commit -m "issue fixed, close #1" (Close Issue)
 git log | git show
 
 git reset HEAD filename (Staging area to UnStaging area)
@@ -65,8 +65,7 @@ git checkout newbranchname
 
 git push origin :branchname (To delete remote branchname)
 
+git restore --staged filename(Restore Stage to UnStage Specific file)
+git reset (Stage to UnStage All Files)
 
-git pull
-git merge 
-
-git pull --rebase
+:wq
