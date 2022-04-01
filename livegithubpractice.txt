@@ -32,4 +32,10 @@ git remote set-url origin git@github.com:17bmiit118/Demo.git (Change Repository 
 git remote add origin secondrepositorylink
 git pull origin master
 
+
+
+GitHub
 https://drive.google.com/drive/folders/17Cf4Sw3ffxBoMA-ChtlWC4Zihp8JDLpM
+
+React
+https://drive.google.com/drive/folders/1Sk8bZnqSdbubHyBdPKL0G-HmQnj_eAYt
